@@ -21,6 +21,7 @@ Lambda Function
 Apply Compliance (Security Enforcement)
 
 ⚙️ Step-by-Step Implementation
+
 🔹 Step 1: Create CloudTrail
 Go to AWS Console → CloudTrail
 Click Create Trail
@@ -139,6 +140,7 @@ Invokes Lambda automatically
 🔹 Add Target
 Select Lambda Function
 Choose: S3-compliance-enforcer
+
 🧪 Step 5: Test the Automation
 1. Create a New S3 Bucket
 Disable:
