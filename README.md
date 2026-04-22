@@ -1,4 +1,4 @@
-🚀# Event-Driven S3 Compliance Automation
+🚀 Event-Driven S3 Compliance Automation
 📌 Project Overview
 
 This project implements an event-driven automation framework that enforces security and compliance policies on Amazon S3 buckets in real time.
