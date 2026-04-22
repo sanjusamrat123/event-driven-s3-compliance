@@ -22,7 +22,7 @@ Apply Compliance (Security Enforcement)
 
 ## ⚙️ Step-by-Step Implementation
 
-##🔹 Step 1: Create CloudTrail
+## 🔹 Step 1: Create CloudTrail
 Go to AWS Console → CloudTrail
 Click Create Trail
 
@@ -40,7 +40,7 @@ Enable Read
 
 Click → Create Trail
 
-##🔹 Step 2: Create IAM Role for Lambda
+## 🔹 Step 2: Create IAM Role for Lambda
 Go to IAM → Roles → Create Role
 Select Lambda
 
@@ -52,7 +52,7 @@ CloudWatchLogsFullAccess
 Role Name:
 S3ComplianceLambdaRole
 
-##🔹 Step 3: Create Lambda Function
+## 🔹 Step 3: Create Lambda Function
 Go to Lambda → Create Function
 
 Configuration:
@@ -116,7 +116,7 @@ def lambda_handler(event, context):
         'statusCode': 200,
         'body': json.dumps('S3 compliance check completed')
     }
-##🔹 Step 4: Create EventBridge Rule
+## 🔹 Step 4: Create EventBridge Rule
 Go to EventBridge → Create Rule
 
 Rule Name:
