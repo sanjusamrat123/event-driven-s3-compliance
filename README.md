@@ -8,6 +8,7 @@ Whenever a new S3 bucket is created, the system automatically:
 Blocks public access
 Enables versioning
 Adds compliance tags
+
 🏗️ Architecture Flow
 S3 Bucket Creation
         ↓
@@ -18,6 +19,7 @@ EventBridge Rule
 Lambda Function
         ↓
 Apply Compliance (Security Enforcement)
+
 ⚙️ Step-by-Step Implementation
 🔹 Step 1: Create CloudTrail
 Go to AWS Console → CloudTrail
